@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-style>
+      @media (prefers-color-scheme: dark) {
+      body {
+      --bkg-color: #ffffff;
+      }
+      body.light-theme {
+      --bkg-color: #fff;
+      }
+      }
+      body {
+      background: var(--bkg-color);
+      }
+      @media screen and (max-width:480px) {
+      .nomobile {
+      display: none;
+      overflow: hidden;
+      }
+      }
+      img:hover {opacity:0.6;}
+      .cta:hover {opacity:0.8;}
+      .nav:hover {opacity:0.8;}
+    </mj-style>
+    <mj-attributes>
+      <mj-class name="product-name" height="40px" color="#000000" font-size="12px" font-weight="normal" vertical-align="top" />
+      <mj-class name="product-price" color="#68478d" font-size="24px" font-weight="bold" vertical-align="top" />
+      <mj-class name="cta" background-color="#43B02A" border="0px" border-radius="25px" color="#FFFFFF" vertical-align="bottom" />
+      <mj-class name="cashback" font-family="sans-serif" font-size="16px" font-weight="bold" align="center" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body css-class="body" width="720px">
+    <mj-section background-color="#FFDD00">
+      <mj-column border="none" padding="0px" width="100%">
+        <mj-image src="https://rihappyio.vtexassets.com/assets/vtex/assets-builder/rihappyio.rihappy-theme/1.6.3/images/logo-rihappy___ece5d020bb4124ae8973da593f9be42f.svg" alt="" width="200px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#EEEEEE">
+      <mj-column border="none" padding="0px">
+        <mj-navbar base-url="https://www.rihappy.com.br" hamburger="hamburger" ico-color="#FFDD00">
+          <mj-navbar-link href="/barbie" target="_blank" color="#555555" css-class="nav">
+            <strong>BARBIE</strong>
+          </mj-navbar-link>
+          <mj-navbar-link href="/hot-weels" target="_blank" color="#555555" css-class="nav">
+            <strong>HOT WHEELS</strong>
+          </mj-navbar-link>
+          <mj-navbar-link href="/baby" target="_blank" color="#555555" css-class="nav">
+            <strong>BABY</strong>
+          </mj-navbar-link>
+          <mj-navbar-link href="/lancamentos" target="_blank" color="#555555" css-class="nav">
+            <strong>LANÇAMENTOS</strong>
+          </mj-navbar-link>
+          <mj-navbar-link href="/ofertas-do-mes" target="_blank" color="#555555" css-class="nav">
+            <strong>OFERTAS</strong>
+          </mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="nomobile">
+      <mj-column border="none" padding="0px" css-class="nomobile">
+        <mj-carousel tb-width="100px" icon-width="1px" left-icon="" right-icon="" css-class="nomobile">
+          <mj-carousel-image src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/0a73ced9-d3c9-442a-99ba-235c6a439594___4c62ceba89df6bfa08568849a9a3e261.png" css-class="nomobile" />
+          <mj-carousel-image src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/2bf9e6f6-1b27-4f29-91d4-cfd744ebb7c5___f4c724f8fca2f05f1c09c798e67a8934.png" css-class="nomobile" />
+          <mj-carousel-image src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/54452fc0-86cd-4c47-b906-e2c9da05b9b6___df662900eda4fa9129f4b82dc46ba468.png" css-class="nomobile" />
+        </mj-carousel>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/2572959-1200-auto?v=637813366665430000&width=1200&height=auto&aspect=true" />
+        <mj-text mj-class="product-name" align="center">
+          Mini Boneco e Acessórios - DC Comics - The Batman - Batman - Sunny
+        </mj-text>
+        <mj-text mj-class="product-price" align="center">
+          R$ 84,99
+        </mj-text>
+        <mj-button mj-class="cta" css-class="cta" href="https://www.rihappy.com.br/mini-figura-e-acessorios---dc-comics---the-batman---batman---sunny/p" target="_blank">
+          adidionar
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/3957768-1200-auto?v=637898796152870000&width=1200&height=auto&aspect=true" />
+        <mj-text mj-class="product-name" align="center">
+          Pelúcia - Disney Pixar - Lightyear - Buzz Lightyear - 20cm - Mattel
+        </mj-text>
+        <mj-text mj-class="product-price" align="center">
+          R$ 98,99
+        </mj-text>
+        <mj-button mj-class="cta" css-class="cta" href="" target="_blank">
+          adidionar
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/676559-1200-auto?v=637326892990830000&width=1200&height=auto&aspect=true" />
+        <mj-text mj-class="product-name" align="center">
+          Figura Articulada - Imaginext - Jurassic World - Indominus Rex - Fisher-Price
+        </mj-text>
+        <mj-text mj-class="product-price" align="center">
+          R$ 279,99
+        </mj-text>
+        <mj-button mj-class="cta" css-class="cta" href="" target="_blank">
+          adidionar
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFDD00" border-radius="25px">
+      <mj-column width="10%">
+        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/icon-happy-mais-header-desktop-2x.png" border="0" padding="0" padding-left="20px" />
+      </mj-column>
+      <mj-column width="90%">
+        <mj-text mj-class="cashback">
+          Quer ainda mais vantagens? Todos os produtos com Cashback garantido*! 😍
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" border="0">
+      <mj-column>
+        <mj-image width="370px" height="340px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/2483d758-2875-4b49-bb73-197c7274d0f9___67fa7cfb8410e22d7a43188b0a4bed8d.png" />
+      </mj-column>
+      <mj-column>
+        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/33d85945-adbe-4aff-9617-02482d64f360___2a0f62e1f02418408c060683919514e4.png" />
+        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/aee426d6-662b-4832-91e6-9bf7a35089d3___ca70d372ff0a473b386fe559a808409c.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" border="0" css-class="nomobile">
+      <mj-column>
+        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/5648fd2e-5195-4dd7-9277-44ee6bbe401d___ae60d9b40d9ca63a09732fdaddcf2057.png" />
+        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/d7c5868c-4a28-4460-830d-186e0a14df8a___a0df7da63c302cb95576c6eae2e313f2.png" />
+      </mj-column>
+      <mj-column>
+        <mj-image width="370px" height="340px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c12220b3-4ae8-474a-b2db-1f23664118dd___3201f07749404ecd5f2eb41189f436c8.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFDD00" border-radius="25px">
+      <mj-column width="15%">
+        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-yotube.png" />
+      </mj-column>
+      <mj-column width="15%">
+        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-instagram.png" />
+      </mj-column>
+      <mj-column width="15%">
+        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-linkedin.png" />
+      </mj-column>
+      <mj-column width="15%">
+        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-facebook.png" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
