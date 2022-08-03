@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-breakpoint width="600px" />
+
     <mj-style>
       @media (prefers-color-scheme: dark) {
       body {
@@ -68,7 +68,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/2572959-1200-auto?v=637813366665430000&width=1200&height=auto&aspect=true" />
+        <mj-image href="" width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/2572959-1200-auto?v=637813366665430000&width=1200&height=auto&aspect=true" />
         <mj-text mj-class="product-name" align="center">
           Mini Boneco e Acessórios - DC Comics - The Batman - Batman - Sunny
         </mj-text>
@@ -80,7 +80,7 @@
         </mj-button>
       </mj-column>
       <mj-column>
-        <mj-image width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/3957768-1200-auto?v=637898796152870000&width=1200&height=auto&aspect=true" />
+        <mj-image href="" width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/3957768-1200-auto?v=637898796152870000&width=1200&height=auto&aspect=true" />
         <mj-text mj-class="product-name" align="center">
           Pelúcia - Disney Pixar - Lightyear - Buzz Lightyear - 20cm - Mattel
         </mj-text>
@@ -92,7 +92,7 @@
         </mj-button>
       </mj-column>
       <mj-column>
-        <mj-image width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/676559-1200-auto?v=637326892990830000&width=1200&height=auto&aspect=true" />
+        <mj-image href="" width="200px" padding="0" src="https://rihappy.vtexassets.com/arquivos/ids/676559-1200-auto?v=637326892990830000&width=1200&height=auto&aspect=true" />
         <mj-text mj-class="product-name" align="center">
           Figura Articulada - Imaginext - Jurassic World - Indominus Rex - Fisher-Price
         </mj-text>
@@ -119,31 +119,45 @@
         <mj-image width="370px" height="340px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/2483d758-2875-4b49-bb73-197c7274d0f9___67fa7cfb8410e22d7a43188b0a4bed8d.png" />
       </mj-column>
       <mj-column>
-        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/33d85945-adbe-4aff-9617-02482d64f360___2a0f62e1f02418408c060683919514e4.png" />
-        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/aee426d6-662b-4832-91e6-9bf7a35089d3___ca70d372ff0a473b386fe559a808409c.png" />
-      </mj-column>
-    </mj-section>
-    <mj-section padding="0" border="0" css-class="nomobile">
-      <mj-column>
-        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/5648fd2e-5195-4dd7-9277-44ee6bbe401d___ae60d9b40d9ca63a09732fdaddcf2057.png" />
-        <mj-image width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/d7c5868c-4a28-4460-830d-186e0a14df8a___a0df7da63c302cb95576c6eae2e313f2.png" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="370px" height="340px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/c12220b3-4ae8-474a-b2db-1f23664118dd___3201f07749404ecd5f2eb41189f436c8.png" />
+        <mj-image css-class="nomobile" width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/33d85945-adbe-4aff-9617-02482d64f360___2a0f62e1f02418408c060683919514e4.png" />
+        <mj-image css-class="nomobile" width="350px" height="160px" border="0" padding="10px" border-radius="15px" src="https://rihappynovo.vtexassets.com/assets/vtex.file-manager-graphql/images/aee426d6-662b-4832-91e6-9bf7a35089d3___ca70d372ff0a473b386fe559a808409c.png" />
       </mj-column>
     </mj-section>
     <mj-section background-color="#FFDD00" border-radius="25px">
-      <mj-column width="15%">
-        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-yotube.png" />
-      </mj-column>
-      <mj-column width="15%">
-        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-instagram.png" />
-      </mj-column>
-      <mj-column width="15%">
-        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-linkedin.png" />
-      </mj-column>
-      <mj-column width="15%">
-        <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-facebook.png" />
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-yotube.png" width="75px" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-instagram.png" width="75px" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-linkedin.png" width="75px" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://rihappynovo.vtexassets.com/arquivos/footer-ico-facebook.png" width="75px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Ofertas válidas apenas no site <a href="https://www.rihappy.com.br/" target="_blank" style="text-decoration: none;">www.rihappy.com.br</a> somente para os itens selecionados neste e-mail entre o dia 03/08/22 às 0:00 horas até o dia 03/08/22 às 23:59 horas, enquanto durarem os estoques, durante a vigência da promoção e na data de envio dessa mensagem. Permitida a compra de 5 (cinco) itens do mesmo produto por CPF para e-mails promocionais. Promoção não cumulativa e válida somente para produtos vendidos e entregues pela Ri Happy.
+          <br /><br />
+          Os preços do site podem ser diferentes nas lojas físicas. Se houver diferença de preço ou descrição do produto entre este e-mail e o site, a condição válida e praticada será a do site. Qualquer dúvida, entre em contato com o nosso atendimento. Verifique preços, estoque e condições no site antes de efetuar a compra.
+          <br /><br />
+          Cashback Ri Happy, trata-se de um crédito de 5% do valor total da compra, para ser utilizado em até 60 dias nas lojas Ri Happy participantes, site (apenas produtos vendidos e entregues por Ri Happy) ou app Ri Happy. Para resgatar o seu crédito basta ser cadastrado no Programa de Fidelidade Happy Mais e informar seu CPF no caixa das lojas físicas. No site, faça login na página inicial e também na etapa de pagamento (selecione “ativar benefícios”) e seu desconto será aplicado no carrinho em itens vendidos e entregues por Ri Happy, respeitando o valor máximo de 20% de desconto do total da compra. O cadastro no programa pode ser feito através do site <a href="https://www.rihappy.com.br/happymais" target="_blank" style="text-decoration: none;">www.rihappy.com.br/happymais</a> ou aplicativo Ri Happy. Confira o regulamento e condições no site.
+          <br /><br />
+          Frete Grátis para todo o Brasil nas compras a partir de R$ 150,00 e na modalidade de entrega Econômica; exceto categorias: Bebês: Carrinhos de Bebê, Cadeiras para Auto, Bebês Conforto, Cadeirão e Booster, Miniveículos para Passeio, Banheiras e Acessórios para Banho. Brinquedos: Miniveículos e Playgrounds. Esportes: Bicicletas, Patins, Skates e Patinetes. Móveis. Válido para produtos vendidos e entregues por Ri Happy.
+          <br /><br />
+          Para mais informações, consulte nossa política de frete para compras online em <a href="https://www.rihappy.com.br/politicas-de-frete" target="_blank" style="text-decoration: none;">www.rihappy.com.br/politicas-de-frete</a>. Valor do frete pode sofrer alterações de acordo com o CEP.
+          <br /><br />
+          Retire na Loja e ganhe 5% de desconto: promoção válida para produtos vendidos por Ri Happy e elegíveis para retirada na loja. Ao finalizar sua compra no site, escolha por Retirar na Loja e ganhe 5% de desconto.
+          <br /><br />
+          Conheça também nosso Delivery. Refere-se a compras realizadas diretamente com as lojas físicas habilitadas para o serviço e toda a operação é realizada via WhatsApp. São praticados os preços das lojas físicas, diferentes dos preços do site. Consulte valores, condições de pagamento, frete, bairros atendidos e prazo de entrega via WhatsApp.
+          <br /><br />
+          Nosso Endereço: Av. Engenheiro Luís Carlos Berrini, 105 16° andar - Cidade Monções, São Paulo - SP.
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
